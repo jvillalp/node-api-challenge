@@ -65,7 +65,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [x] Describe a Resource?
 
-        A Resource is is a list of something that you are trying to obtain from an API. 
+        A Resource is is a  of something that you are trying to obtain from an API. 
 
 - [x] What can the API return to help clients know if a request was successful?
 
