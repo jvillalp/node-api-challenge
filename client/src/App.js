@@ -9,6 +9,15 @@ import ActionsForm from './component/ActionsForm';
 
 import axios from 'axios'
 
+import styled from 'styled-components';
+
+const Title = styled.h1`
+font-size: 1.5em;
+text-align: center;
+color: palevioletred;
+background:papayawhip;
+`;
+
 const App = () =>  {
 
   const [projects, setProjects] = useState([]);
@@ -41,7 +50,7 @@ const App = () =>  {
 
   return (
     <div className="App">
-      <h1> These are the Projects</h1>
+      <Title> Click to find the Projects or Actions! </Title>
       <ProjectsDisplay ProjectsDisplay={projects}/>
       <ActionsDisplay ActionsDisplay={actions}/>
       <ProjectsForm getProjectsBtn={getProjects} />

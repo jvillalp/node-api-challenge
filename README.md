@@ -63,7 +63,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
         Any middleware in the queue can stop the request and send a response back to the client. When that happens, the rest of the middleware, including the route handlers, will not be executed.
 
-- [ ] Describe a Resource?
+- [x] Describe a Resource?
 
         A Resource is is a list of something that you are trying to obtain from an API. 
 
@@ -71,9 +71,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
         The API can return a 200 ok status code res.status() to let the client know that the operation was s sucess. We also include a .json() method of the response object to clearly communicateto both the client making the request and the developer working on the code. 
 
-- [ ] How can we partition our application into sub-applications?
+- [x] How can we partition our application into sub-applications?
 
-        We can partition our application into sub-applications using either cors or body-parser. Express Routers are a way to split an application into sub-applications to make it easier to maintain. 
+        We can partition our application into sub-applications using body-parser. Express Routers are a way to split an application into sub-applications to make it easier to maintain. 
 
 ## Minimum Viable Product
 
